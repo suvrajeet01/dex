@@ -533,6 +533,260 @@ C:\suv\lw3.io_dex\my-app>
 
 
 
+C:\suv\lw3.io_dex\my-app>git status
+On branch trunk
+Your branch is up to date with 'origin/trunk'.
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        ../Exchange Contract Addres
+        ../backend/
+        ./
+        ../terminal commands.txt
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+C:\suv\lw3.io_dex\my-app>cd ..
+
+C:\suv\lw3.io_dex>git status
+On branch trunk
+Your branch is up to date with 'origin/trunk'.
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        Exchange Contract Addres
+        backend/
+        my-app/
+        terminal commands.txt
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+C:\suv\lw3.io_dex>git add .
+warning: LF will be replaced by CRLF in backend/.gitignore.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in backend/README.md.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in backend/contracts/Lock.sol.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in backend/hardhat.config.js.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in backend/package-lock.json.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in backend/package.json.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in backend/scripts/deploy.js.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in backend/test/Lock.js.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in my-app/.gitignore.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in my-app/README.md.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in my-app/jsconfig.json.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in my-app/next.config.js.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in my-app/package-lock.json.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in my-app/package.json.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in my-app/pages/_app.js.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in my-app/pages/_document.js.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in my-app/pages/api/hello.js.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in my-app/pages/index.js.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in my-app/styles/Home.module.css.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in my-app/styles/globals.css.
+The file will have its original line endings in your working directory
+
+C:\suv\lw3.io_dex>git status
+On branch trunk
+Your branch is up to date with 'origin/trunk'.
+
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        new file:   Exchange Contract Addres
+        new file:   backend/.gitignore
+        new file:   backend/README.md
+        new file:   backend/constants/index.js
+        new file:   backend/contracts/Exchange.sol
+        new file:   backend/contracts/Lock.sol
+        new file:   backend/hardhat.config.js
+        new file:   backend/package-lock.json
+        new file:   backend/package.json
+        new file:   backend/scripts/deploy.js
+        new file:   backend/test/Lock.js
+        new file:   my-app/.gitignore
+        new file:   my-app/README.md
+        new file:   my-app/constants/index.js
+        new file:   my-app/jsconfig.json
+        new file:   my-app/next.config.js
+        new file:   my-app/package-lock.json
+        new file:   my-app/package.json
+        new file:   my-app/pages/_app.js
+        new file:   my-app/pages/_document.js
+        new file:   my-app/pages/api/hello.js
+        new file:   my-app/pages/index.js
+        new file:   my-app/public/cryptodev.svg
+        new file:   my-app/public/favicon.ico
+        new file:   my-app/public/next.svg
+        new file:   my-app/public/thirteen.svg
+        new file:   my-app/public/vercel.svg
+        new file:   my-app/styles/Home.module.css
+        new file:   my-app/styles/globals.css
+        new file:   my-app/utils/addLiquidity.js
+        new file:   my-app/utils/getAmounts.js
+        new file:   my-app/utils/removeLiquidity.js
+        new file:   my-app/utils/swap.js
+        new file:   terminal commands.txt
+
+
+C:\suv\lw3.io_dex>git commit -m "dex like uniswap"
+[trunk 209e76a] dex like uniswap
+ 34 files changed, 15023 insertions(+)
+ create mode 100644 Exchange Contract Addres
+ create mode 100644 backend/.gitignore
+ create mode 100644 backend/README.md
+ create mode 100644 backend/constants/index.js
+ create mode 100644 backend/contracts/Exchange.sol
+ create mode 100644 backend/contracts/Lock.sol
+ create mode 100644 backend/hardhat.config.js
+ create mode 100644 backend/package-lock.json
+ create mode 100644 backend/package.json
+ create mode 100644 backend/scripts/deploy.js
+ create mode 100644 backend/test/Lock.js
+ create mode 100644 my-app/.gitignore
+ create mode 100644 my-app/README.md
+ create mode 100644 my-app/constants/index.js
+ create mode 100644 my-app/jsconfig.json
+ create mode 100644 my-app/next.config.js
+ create mode 100644 my-app/package-lock.json
+ create mode 100644 my-app/package.json
+ create mode 100644 my-app/pages/_app.js
+ create mode 100644 my-app/pages/_document.js
+ create mode 100644 my-app/pages/api/hello.js
+ create mode 100644 my-app/pages/index.js
+ create mode 100644 my-app/public/cryptodev.svg
+ create mode 100644 my-app/public/favicon.ico
+ create mode 100644 my-app/public/next.svg
+ create mode 100644 my-app/public/thirteen.svg
+ create mode 100644 my-app/public/vercel.svg
+ create mode 100644 my-app/styles/Home.module.css
+ create mode 100644 my-app/styles/globals.css
+ create mode 100644 my-app/utils/addLiquidity.js
+ create mode 100644 my-app/utils/getAmounts.js
+ create mode 100644 my-app/utils/removeLiquidity.js
+ create mode 100644 my-app/utils/swap.js
+ create mode 100644 terminal commands.txt
+
+C:\suv\lw3.io_dex>git status
+On branch trunk
+Your branch is ahead of 'origin/trunk' by 1 commit.
+  (use "git push" to publish your local commits)
+
+nothing to commit, working tree clean
+
+C:\suv\lw3.io_dex>git push
+Enumerating objects: 49, done.
+Counting objects: 100% (49/49), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (43/43), done.
+Writing objects: 100% (48/48), 132.05 KiB | 1.89 MiB/s, done.
+Total 48 (delta 1), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (1/1), done.
+To https://github.com/suvrajeet01/lw3.io_dex
+   ecebce7..209e76a  trunk -> trunk
+
+C:\suv\lw3.io_dex>git status
+On branch trunk
+Your branch is up to date with 'origin/trunk'.
+
+nothing to commit, working tree clean
+
+C:\suv\lw3.io_dex>git status
+On branch trunk
+Your branch is up to date with 'origin/trunk'.
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   terminal commands.txt
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+C:\suv\lw3.io_dex>git add .
+
+C:\suv\lw3.io_dex>git commit -m "terminal commands"
+[trunk e73a7ca] terminal commands
+ 1 file changed, 14 insertions(+)
+
+C:\suv\lw3.io_dex>git status
+On branch trunk
+Your branch is ahead of 'origin/trunk' by 1 commit.
+  (use "git push" to publish your local commits)
+
+nothing to commit, working tree clean
+
+C:\suv\lw3.io_dex>git push
+Enumerating objects: 5, done.
+Counting objects: 100% (5/5), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 339 bytes | 169.00 KiB/s, done.
+Total 3 (delta 2), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (2/2), completed with 2 local objects.
+To https://github.com/suvrajeet01/lw3.io_dex
+   209e76a..e73a7ca  trunk -> trunk
+
+C:\suv\lw3.io_dex>git status
+On branch trunk
+Your branch is up to date with 'origin/trunk'.
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   terminal commands.txt
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+C:\suv\lw3.io_dex>git add .
+
+C:\suv\lw3.io_dex>git status
+On branch trunk
+Your branch is up to date with 'origin/trunk'.
+
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        modified:   terminal commands.txt
+
+
+C:\suv\lw3.io_dex>git commit -m "terminal commands"
+[trunk 15b363c] terminal commands
+ 1 file changed, 27 insertions(+)
+
+C:\suv\lw3.io_dex>git status
+On branch trunk
+Your branch is ahead of 'origin/trunk' by 1 commit.
+  (use "git push" to publish your local commits)
+
+nothing to commit, working tree clean
+
+C:\suv\lw3.io_dex>git push
+Enumerating objects: 5, done.
+Counting objects: 100% (5/5), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 302 bytes | 302.00 KiB/s, done.
+Total 3 (delta 2), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (2/2), completed with 2 local objects.
+To https://github.com/suvrajeet01/lw3.io_dex
+   e73a7ca..15b363c  trunk -> trunk
+
+C:\suv\lw3.io_dex>
 
 
 
