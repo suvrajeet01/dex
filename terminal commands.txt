@@ -491,6 +491,20 @@ added 45 packages, and audited 122 packages in 11s
 
 found 0 vulnerabilities
 
+C:\suv\lw3.io_dex\my-app>npm run dev
+
+> my-app@0.1.0 dev
+> next dev
+
+ready - started server on 0.0.0.0:3000, url: http://localhost:3000
+event - compiled client and server successfully in 718 ms (165 modules)
+wait  - compiling /_error (client and server)...
+event - compiled client and server successfully in 108 ms (166 modules)
+warn  - Fast Refresh had to perform a full reload. Read more: https://nextjs.org/docs/messages/fast-refresh-reload
+wait  - compiling / (client and server)...
+event - compiled client and server successfully in 1734 ms (331 modules)
+warn  - Fast Refresh had to perform a full reload. Read more: https://nextjs.org/docs/messages/fast-refresh-reload
+
 C:\suv\lw3.io_dex\my-app>
 
 
