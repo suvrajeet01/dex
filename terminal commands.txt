@@ -1,0 +1,946 @@
+Microsoft Windows [Version 10.0.22621.1105]
+(c) Microsoft Corporation. All rights reserved.
+
+C:\suv>git clone https://github.com/suvrajeet01/dex.git
+Cloning into 'dex'...
+remote: Enumerating objects: 16, done.
+remote: Counting objects: 100% (16/16), done.
+remote: Compressing objects: 100% (11/11), done.
+remote: Total 16 (delta 4), reused 0 (delta 0), pack-reused 0
+Receiving objects: 100% (16/16), done.
+Resolving deltas: 100% (4/4), done.
+
+C:\suv>git clone https://github.com/suvrajeet01/lw3.io_dex
+Cloning into 'lw3.io_dex'...
+remote: Enumerating objects: 16, done.
+remote: Counting objects: 100% (16/16), done.
+remote: Compressing objects: 100% (11/11), done.
+remote: Total 16 (delta 4), reused 0 (delta 0), pack-reused 0
+Receiving objects: 100% (16/16), done.
+Resolving deltas: 100% (4/4), done.
+
+C:\suv>git status
+fatal: not a git repository (or any of the parent directories): .git
+
+C:\suv>cd lw3.io_dex
+
+C:\suv\lw3.io_dex>git status
+On branch trunk
+Your branch is up to date with 'origin/trunk'.
+
+nothing to commit, working tree clean
+
+C:\suv\lw3.io_dex>. code
+'.' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\suv\lw3.io_dex>code .
+
+C:\suv\lw3.io_dex>mkdir backend
+
+C:\suv\lw3.io_dex>cd backend
+
+C:\suv\lw3.io_dex\backend>npm init --yes
+Wrote to C:\suv\lw3.io_dex\backend\package.json:
+
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
+
+
+
+C:\suv\lw3.io_dex\backend>npm install --save-dev hardhat
+
+added 299 packages, and audited 300 packages in 47s
+
+61 packages are looking for funding
+  run `npm fund` for details
+
+found 0 vulnerabilities
+
+C:\suv\lw3.io_dex\backend>npm install --save-dev hardhat
+
+added 299 packages, and audited 300 packages in 47s
+
+61 packages are looking for funding
+  run `npm fund` for details
+
+found 0 vulnerabilities
+
+C:\suv\lw3.io_dex\backend>npm install --save-dev hardhat
+
+up to date, audited 300 packages in 2s
+
+61 packages are looking for funding
+  run `npm fund` for details
+
+found 0 vulnerabilities
+
+C:\suv\lw3.io_dex\backend>npm install --save-dev @nomicfoundation/hardhat-toolbox
+npm WARN deprecated request-promise-native@1.0.9: request-promise-native has been deprecated because it extends the now deprecated request package, see https://github.com/request/request/issues/3142
+npm WARN deprecated har-validator@5.1.5: this library is no longer supported
+npm WARN deprecated debug@3.2.6: Debug versions >=3.2.0 <3.2.7 || >=4 <4.3.1 have a low-severity ReDos regression when used in a Node.js environment. It is recommended you upgrade to 3.2.7 or 4.3.1. (https://github.com/visionmedia/debug/issues/797)
+npm WARN deprecated debug@3.2.6: Debug versions >=3.2.0 <3.2.7 || >=4 <4.3.1 have a low-severity ReDos regression when used in a Node.js environment. It is recommended you upgrade to 3.2.7 or 4.3.1. (https://github.com/visionmedia/debug/issues/797)
+npm WARN deprecated uuid@2.0.1: Please upgrade  to version 7 or higher.  Older versions may use Math.random() in certain circumstances, which is known to be problematic.  See https://v8.dev/blog/math-random for details.
+npm WARN deprecated uuid@3.4.0: Please upgrade  to version 7 or higher.  Older versions may use Math.random() in certain circumstances, which is known to be problematic.  See https://v8.dev/blog/math-random for details.
+npm WARN deprecated request@2.88.2: request has been deprecated, see https://github.com/request/request/issues/3142
+
+added 405 packages, and audited 705 packages in 1m
+
+121 packages are looking for funding
+  run `npm fund` for details
+
+8 vulnerabilities (5 high, 3 critical)
+
+To address all issues, run:
+  npm audit fix
+
+Run `npm audit` for details.
+
+C:\suv\lw3.io_dex\backend>npx hardhat
+
+888    888                      888 888               888
+888    888                      888 888               888
+888    888                      888 888               888
+8888888888  8888b.  888d888 .d88888 88888b.   8888b.  888888
+888    888     "88b 888P"  d88" 888 888 "88b     "88b 888
+888    888 .d888888 888    888  888 888  888 .d888888 888
+888    888 888  888 888    Y88b 888 888  888 888  888 Y88b.
+888    888 "Y888888 888     "Y88888 888  888 "Y888888  "Y888
+
+Welcome to Hardhat v2.12.7
+
+√ What do you want to do? · Create a JavaScript project
+√ Hardhat project root: · C:\suv\lw3.io_dex\backend
+√ Do you want to add a .gitignore? (Y/n) · y
+
+You need to install these dependencies to run the sample project:
+  npm install --save-dev "hardhat@^2.12.7" "@nomicfoundation/hardhat-toolbox@^2.0.0"
+
+Project created
+
+See the README.md file for some example tasks you can run
+
+Give Hardhat a star on Github if you're enjoying it!
+
+     https://github.com/NomicFoundation/hardhat
+
+C:\suv\lw3.io_dex\backend>
+C:\suv\lw3.io_dex\backend>npm install @openzeppelin/contracts
+
+added 1 package, and audited 706 packages in 4s
+
+121 packages are looking for funding
+  run `npm fund` for details
+
+8 vulnerabilities (5 high, 3 critical)
+
+To address all issues (including breaking changes), run:
+  npm audit fix --force
+
+Run `npm audit` for details.
+
+C:\suv\lw3.io_dex\backend>npm install dotenv
+
+added 1 package, and audited 707 packages in 9s
+
+121 packages are looking for funding
+  run `npm fund` for details
+
+8 vulnerabilities (5 high, 3 critical)
+
+To address all issues (including breaking changes), run:
+  npm audit fix --force
+
+Run `npm audit` for details.
+
+C:\suv\lw3.io_dex\backend>npx hardhat compile
+Error HH606: The project cannot be compiled, see reasons below.
+
+The Solidity version pragma statement in these files doesn't match any of the configured compilers in your config. Change the pragma or configure additional compiler versions in your hardhat config.
+
+  * contracts/Lock.sol (^0.8.9)
+
+To learn more, run the command again with --verbose
+
+Read about compiler configuration at https://hardhat.org/config
+
+
+For more info go to https://hardhat.org/HH606 or run Hardhat with --show-stack-traces
+
+C:\suv\lw3.io_dex\backend>npx hardhat compile
+ParserError: Multiple SPDX license identifiers found in source file. Use "AND" or "OR" to combine multiple licenses. Please see https://spdx.org for more information.
+--> contracts/Exchange.sol
+
+
+Error HH600: Compilation failed
+
+For more info go to https://hardhat.org/HH600 or run Hardhat with --show-stack-traces
+
+C:\suv\lw3.io_dex\backend>npx hardhat compile
+Compiled 6 Solidity files successfully
+
+C:\suv\lw3.io_dex\backend>npx hardhat run scripts/deploy.js --network goerli
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Exchange Contract Address: 0x505De9253C89F90cabAbdC0FD4c273b01E24fF29
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+C:\suv\lw3.io_dex\backend>cd ..
+
+C:\suv\lw3.io_dex>npx create-next-app@latest
+√ What is your project named? ... my-app
+√ Would you like to use TypeScript with this project? ... No / Yes
+√ Would you like to use ESLint with this project? ... No / Yes
+√ Would you like to use `src/` directory with this project? ... No / Yes
+√ Would you like to use experimental `app/` directory with this project? ... No / Yes
+√ What import alias would you like configured? ... @/*
+Creating a new Next.js app in C:\suv\lw3.io_dex\my-app.
+
+Using npm.
+
+Installing dependencies:
+- react
+- react-dom
+- next
+- @next/font
+
+
+added 18 packages, and audited 19 packages in 28s
+
+2 packages are looking for funding
+  run `npm fund` for details
+
+found 0 vulnerabilities
+
+Initializing project with template: default
+
+Success! Created my-app at C:\suv\lw3.io_dex\my-app
+
+
+C:\suv\lw3.io_dex>>cd my-app
+
+C:\suv\lw3.io_dex\my-app>npm install web3modal
+
+added 58 packages, and audited 77 packages in 18s
+
+5 packages are looking for funding
+  run `npm fund` for details
+
+found 0 vulnerabilities
+
+C:\suv\lw3.io_dex\my-app>npm run dev
+
+> my-app@0.1.0 dev
+> next dev
+
+ready - started server on 0.0.0.0:3000, url: http://localhost:3000
+event - compiled client and server successfully in 6.7s (165 modules)
+wait  - compiling / (client and server)...
+error - ./pages/index.js:1:0
+Module not found: Can't resolve 'ethers'
+> 1 | import { BigNumber, providers, utils } from "ethers";
+  2 | import Head from "next/head";
+  3 | import React, { useEffect, useRef, useState } from "react";
+  4 | import Web3Modal from "web3modal";
+
+https://nextjs.org/docs/messages/module-not-found
+wait  - compiling /_error (client and server)...
+error - ./pages/index.js:1:0
+Module not found: Can't resolve 'ethers'
+> 1 | import { BigNumber, providers, utils } from "ethers";
+  2 | import Head from "next/head";
+  3 | import React, { useEffect, useRef, useState } from "react";
+  4 | import Web3Modal from "web3modal";
+
+https://nextjs.org/docs/messages/module-not-found
+wait  - compiling...
+event - compiled client and server successfully in 131 ms (166 modules)
+wait  - compiling / (client and server)...
+error - ./pages/index.js:1:0
+Module not found: Can't resolve 'ethers'
+> 1 | import { BigNumber, providers, utils } from "ethers";
+  2 | import Head from "next/head";
+  3 | import React, { useEffect, useRef, useState } from "react";
+  4 | import Web3Modal from "web3modal";
+
+https://nextjs.org/docs/messages/module-not-found
+
+C:\suv\lw3.io_dex\my-app>cd ..
+
+C:\suv\lw3.io_dex>cd backend
+
+C:\suv\lw3.io_dex\backend>cd ..
+
+C:\suv\lw3.io_dex>cd my-app
+
+C:\suv\lw3.io_dex\my-app>npm run dev
+
+> my-app@0.1.0 dev
+> next dev
+
+ready - started server on 0.0.0.0:3000, url: http://localhost:3000
+event - compiled client and server successfully in 525 ms (165 modules)
+wait  - compiling / (client and server)...
+error - ./pages/index.js:1:0
+Module not found: Can't resolve 'ethers'
+> 1 | import { BigNumber, providers, utils } from "ethers";
+  2 | import Head from "next/head";
+  3 | import React, { useEffect, useRef, useState } from "react";
+  4 | import Web3Modal from "web3modal";
+
+https://nextjs.org/docs/messages/module-not-found
+wait  - compiling /_error (client and server)...
+error - ./pages/index.js:1:0
+Module not found: Can't resolve 'ethers'
+> 1 | import { BigNumber, providers, utils } from "ethers";
+  2 | import Head from "next/head";
+  3 | import React, { useEffect, useRef, useState } from "react";
+  4 | import Web3Modal from "web3modal";
+
+https://nextjs.org/docs/messages/module-not-found
+wait  - compiling...
+event - compiled client and server successfully in 150 ms (166 modules)
+warn  - Fast Refresh had to perform a full reload due to a runtime error.
+wait  - compiling / (client and server)...
+error - ./pages/index.js:1:0
+Module not found: Can't resolve 'ethers'
+> 1 | import { BigNumber, providers, utils } from "ethers";
+  2 | import Head from "next/head";
+  3 | import React, { useEffect, useRef, useState } from "react";
+  4 | import Web3Modal from "web3modal";
+
+https://nextjs.org/docs/messages/module-not-found
+
+C:\suv\lw3.io_dex\my-app>npm run dev
+
+> my-app@0.1.0 dev
+> next dev
+
+ready - started server on 0.0.0.0:3000, url: http://localhost:3000
+event - compiled client and server successfully in 518 ms (165 modules)
+wait  - compiling /_error (client and server)...
+event - compiled client and server successfully in 95 ms (166 modules)
+warn  - Fast Refresh had to perform a full reload. Read more: https://nextjs.org/docs/messages/fast-refresh-reload
+wait  - compiling / (client and server)...
+error - ./pages/index.js:1:0
+Module not found: Can't resolve 'ethers'
+> 1 | import { BigNumber, providers, utils } from "ethers";
+  2 | import Head from "next/head";
+  3 | import React, { useEffect, useRef, useState } from "react";
+  4 | import Web3Modal from "web3modal";
+
+https://nextjs.org/docs/messages/module-not-found
+
+C:\suv\lw3.io_dex\my-app>npm i ethers@5
+
+
+C:\suv\lw3.io_dex\my-app>npm i ethers@5
+
+added 45 packages, and audited 122 packages in 11s
+
+36 packages are looking for funding
+  run `npm fund` for details
+
+found 0 vulnerabilities
+
+C:\suv\lw3.io_dex\my-app>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/////////////////               Exchange.sol               //////////////////////////
+
+
+// // SPDX-License-Identifier: MIT
+// pragma solidity ^0.8.4;
+
+// import "@openzeppelin/contracts/token/ERC20/ERC20.sol";
+
+// contract Exchange is ERC20 {
+// }
+
+// // SPDX-License-Identifier: MIT
+// pragma solidity ^0.8.4;
+
+// import "@openzeppelin/contracts/token/ERC20/ERC20.sol";
+
+// contract Exchange is ERC20 {
+
+//     address public cryptoDevTokenAddress;
+
+//     // Exchange is inheriting ERC20, because our exchange would keep track of Crypto Dev LP tokens
+//     constructor(address _CryptoDevtoken) ERC20("CryptoDev LP Token", "CDLP") {
+//         require(_CryptoDevtoken != address(0), "Token address passed is a null address");
+//         cryptoDevTokenAddress = _CryptoDevtoken;
+//     }
+// }
+
+
+// /**
+// * @dev Returns the amount of `Crypto Dev Tokens` held by the contract
+// */
+// function getReserve() public view returns (uint) {
+//     return ERC20(cryptoDevTokenAddress).balanceOf(address(this));
+// }
+
+
+// /**
+// * @dev Adds liquidity to the exchange.
+// */
+// function addLiquidity(uint _amount) public payable returns (uint) {
+//     uint liquidity;
+//     uint ethBalance = address(this).balance;
+//     uint cryptoDevTokenReserve = getReserve();
+//     ERC20 cryptoDevToken = ERC20(cryptoDevTokenAddress);
+//     /*
+//         If the reserve is empty, intake any user supplied value for
+//         `Ether` and `Crypto Dev` tokens because there is no ratio currently
+//     */
+//     if(cryptoDevTokenReserve == 0) {
+//         // Transfer the `cryptoDevToken` from the user's account to the contract
+//         cryptoDevToken.transferFrom(msg.sender, address(this), _amount);
+//         // Take the current ethBalance and mint `ethBalance` amount of LP tokens to the user.
+//         // `liquidity` provided is equal to `ethBalance` because this is the first time user
+//         // is adding `Eth` to the contract, so whatever `Eth` contract has is equal to the one supplied
+//         // by the user in the current `addLiquidity` call
+//         // `liquidity` tokens that need to be minted to the user on `addLiquidity` call should always be proportional
+//         // to the Eth specified by the user
+//         liquidity = ethBalance;
+//         _mint(msg.sender, liquidity);
+//         // _mint is ERC20.sol smart contract function to mint ERC20 tokens
+//     } else {
+//         /*
+//             If the reserve is not empty, intake any user supplied value for
+//             `Ether` and determine according to the ratio how many `Crypto Dev` tokens
+//             need to be supplied to prevent any large price impacts because of the additional
+//             liquidity
+//         */
+//         // EthReserve should be the current ethBalance subtracted by the value of ether sent by the user
+//         // in the current `addLiquidity` call
+//         uint ethReserve =  ethBalance - msg.value;
+//         // Ratio should always be maintained so that there are no major price impacts when adding liquidity
+//         // Ratio here is -> (cryptoDevTokenAmount user can add/cryptoDevTokenReserve in the contract) = (Eth Sent by the user/Eth Reserve in the contract);
+//         // So doing some maths, (cryptoDevTokenAmount user can add) = (Eth Sent by the user * cryptoDevTokenReserve /Eth Reserve);
+//         uint cryptoDevTokenAmount = (msg.value * cryptoDevTokenReserve)/(ethReserve);
+//         require(_amount >= cryptoDevTokenAmount, "Amount of tokens sent is less than the minimum tokens required");
+//         // transfer only (cryptoDevTokenAmount user can add) amount of `Crypto Dev tokens` from users account
+//         // to the contract
+//         cryptoDevToken.transferFrom(msg.sender, address(this), cryptoDevTokenAmount);
+//         // The amount of LP tokens that would be sent to the user should be proportional to the liquidity of
+//         // ether added by the user
+//         // Ratio here to be maintained is ->
+//         // (LP tokens to be sent to the user (liquidity)/ totalSupply of LP tokens in contract) = (Eth sent by the user)/(Eth reserve in the contract)
+//         // by some maths -> liquidity =  (totalSupply of LP tokens in contract * (Eth sent by the user))/(Eth reserve in the contract)
+//         liquidity = (totalSupply() * msg.value)/ ethReserve;
+//         _mint(msg.sender, liquidity);
+//     }
+//      return liquidity;
+// }
+
+
+// /**
+// * @dev Returns the amount Eth/Crypto Dev tokens that would be returned to the user
+// * in the swap
+// */
+// function removeLiquidity(uint _amount) public returns (uint , uint) {
+//     require(_amount > 0, "_amount should be greater than zero");
+//     uint ethReserve = address(this).balance;
+//     uint _totalSupply = totalSupply();
+//     // The amount of Eth that would be sent back to the user is based
+//     // on a ratio
+//     // Ratio is -> (Eth sent back to the user) / (current Eth reserve)
+//     // = (amount of LP tokens that user wants to withdraw) / (total supply of LP tokens)
+//     // Then by some maths -> (Eth sent back to the user)
+//     // = (current Eth reserve * amount of LP tokens that user wants to withdraw) / (total supply of LP tokens)
+//     uint ethAmount = (ethReserve * _amount)/ _totalSupply;
+//     // The amount of Crypto Dev token that would be sent back to the user is based
+//     // on a ratio
+//     // Ratio is -> (Crypto Dev sent back to the user) / (current Crypto Dev token reserve)
+//     // = (amount of LP tokens that user wants to withdraw) / (total supply of LP tokens)
+//     // Then by some maths -> (Crypto Dev sent back to the user)
+//     // = (current Crypto Dev token reserve * amount of LP tokens that user wants to withdraw) / (total supply of LP tokens)
+//     uint cryptoDevTokenAmount = (getReserve() * _amount)/ _totalSupply;
+//     // Burn the sent LP tokens from the user's wallet because they are already sent to
+//     // remove liquidity
+//     _burn(msg.sender, _amount);
+//     // Transfer `ethAmount` of Eth from the contract to the user's wallet
+//     payable(msg.sender).transfer(ethAmount);
+//     // Transfer `cryptoDevTokenAmount` of Crypto Dev tokens from the contract to the user's wallet
+//     ERC20(cryptoDevTokenAddress).transfer(msg.sender, cryptoDevTokenAmount);
+//     return (ethAmount, cryptoDevTokenAmount);
+// }
+
+
+// /**
+// * @dev Returns the amount Eth/Crypto Dev tokens that would be returned to the user
+// * in the swap
+// */
+// function getAmountOfTokens(
+//     uint256 inputAmount,
+//     uint256 inputReserve,
+//     uint256 outputReserve
+// ) public pure returns (uint256) {
+//     require(inputReserve > 0 && outputReserve > 0, "invalid reserves");
+//     // We are charging a fee of `1%`
+//     // Input amount with fee = (input amount - (1*(input amount)/100)) = ((input amount)*99)/100
+//     uint256 inputAmountWithFee = inputAmount * 99;
+//     // Because we need to follow the concept of `XY = K` curve
+//     // We need to make sure (x + Δx) * (y - Δy) = x * y
+//     // So the final formula is Δy = (y * Δx) / (x + Δx)
+//     // Δy in our case is `tokens to be received`
+//     // Δx = ((input amount)*99)/100, x = inputReserve, y = outputReserve
+//     // So by putting the values in the formulae you can get the numerator and denominator
+//     uint256 numerator = inputAmountWithFee * outputReserve;
+//     uint256 denominator = (inputReserve * 100) + inputAmountWithFee;
+//     return numerator / denominator;
+// }
+
+
+// /**
+// * @dev Swaps Eth for CryptoDev Tokens
+// */
+// function ethToCryptoDevToken(uint _minTokens) public payable {
+//     uint256 tokenReserve = getReserve();
+//     // call the `getAmountOfTokens` to get the amount of Crypto Dev tokens
+//     // that would be returned to the user after the swap
+//     // Notice that the `inputReserve` we are sending is equal to
+//     // `address(this).balance - msg.value` instead of just `address(this).balance`
+//     // because `address(this).balance` already contains the `msg.value` user has sent in the given call
+//     // so we need to subtract it to get the actual input reserve
+//     uint256 tokensBought = getAmountOfTokens(
+//         msg.value,
+//         address(this).balance - msg.value,
+//         tokenReserve
+//     );
+
+//     require(tokensBought >= _minTokens, "insufficient output amount");
+//     // Transfer the `Crypto Dev` tokens to the user
+//     ERC20(cryptoDevTokenAddress).transfer(msg.sender, tokensBought);
+// }
+
+
+// /**
+// * @dev Swaps CryptoDev Tokens for Eth
+// */
+// function cryptoDevTokenToEth(uint _tokensSold, uint _minEth) public {
+//     uint256 tokenReserve = getReserve();
+//     // call the `getAmountOfTokens` to get the amount of Eth
+//     // that would be returned to the user after the swap
+//     uint256 ethBought = getAmountOfTokens(
+//         _tokensSold,
+//         tokenReserve,
+//         address(this).balance
+//     );
+//     require(ethBought >= _minEth, "insufficient output amount");
+//     // Transfer `Crypto Dev` tokens from the user's address to the contract
+//     ERC20(cryptoDevTokenAddress).transferFrom(
+//         msg.sender,
+//         address(this),
+//         _tokensSold
+//     );
+//     // send the `ethBought` to the user from the contract
+//     payable(msg.sender).transfer(ethBought);
+// }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+///////////////////            my-app/pages/index.js              ////////////////////
+
+// import Head from 'next/head'
+// import Image from 'next/image'
+// import { Inter } from '@next/font/google'
+// import styles from '@/styles/Home.module.css'
+
+// const inter = Inter({ subsets: ['latin'] })
+
+// export default function Home() {
+//   return (
+//     <>
+//       <Head>
+//         <title>Create Next App</title>
+//         <meta name="description" content="Generated by create next app" />
+//         <meta name="viewport" content="width=device-width, initial-scale=1" />
+//         <link rel="icon" href="/favicon.ico" />
+//       </Head>
+//       <main className={styles.main}>
+//         <div className={styles.description}>
+//           <p>
+//             Get started by editing&nbsp;
+//             <code className={styles.code}>pages/index.js</code>
+//           </p>
+//           <div>
+//             <a
+//               href="https://vercel.com?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
+//               target="_blank"
+//               rel="noopener noreferrer"
+//             >
+//               By{' '}
+//               <Image
+//                 src="/vercel.svg"
+//                 alt="Vercel Logo"
+//                 className={styles.vercelLogo}
+//                 width={100}
+//                 height={24}
+//                 priority
+//               />
+//             </a>
+//           </div>
+//         </div>
+
+//         <div className={styles.center}>
+//           <Image
+//             className={styles.logo}
+//             src="/next.svg"
+//             alt="Next.js Logo"
+//             width={180}
+//             height={37}
+//             priority
+//           />
+//           <div className={styles.thirteen}>
+//             <Image
+//               src="/thirteen.svg"
+//               alt="13"
+//               width={40}
+//               height={31}
+//               priority
+//             />
+//           </div>
+//         </div>
+
+//         <div className={styles.grid}>
+//           <a
+//             href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
+//             className={styles.card}
+//             target="_blank"
+//             rel="noopener noreferrer"
+//           >
+//             <h2 className={inter.className}>
+//               Docs <span>-&gt;</span>
+//             </h2>
+//             <p className={inter.className}>
+//               Find in-depth information about Next.js features and&nbsp;API.
+//             </p>
+//           </a>
+
+//           <a
+//             href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
+//             className={styles.card}
+//             target="_blank"
+//             rel="noopener noreferrer"
+//           >
+//             <h2 className={inter.className}>
+//               Learn <span>-&gt;</span>
+//             </h2>
+//             <p className={inter.className}>
+//               Learn about Next.js in an interactive course with&nbsp;quizzes!
+//             </p>
+//           </a>
+
+//           <a
+//             href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
+//             className={styles.card}
+//             target="_blank"
+//             rel="noopener noreferrer"
+//           >
+//             <h2 className={inter.className}>
+//               Templates <span>-&gt;</span>
+//             </h2>
+//             <p className={inter.className}>
+//               Discover and deploy boilerplate example Next.js&nbsp;projects.
+//             </p>
+//           </a>
+
+//           <a
+//             href="https://vercel.com/new?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
+//             className={styles.card}
+//             target="_blank"
+//             rel="noopener noreferrer"
+//           >
+//             <h2 className={inter.className}>
+//               Deploy <span>-&gt;</span>
+//             </h2>
+//             <p className={inter.className}>
+//               Instantly deploy your Next.js site to a shareable URL
+//               with&nbsp;Vercel.
+//             </p>
+//           </a>
+//         </div>
+//       </main>
+//     </>
+//   )
+// }
+
+
